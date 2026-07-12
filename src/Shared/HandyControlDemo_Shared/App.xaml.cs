@@ -33,7 +33,7 @@ public partial class App
     protected override void OnStartup(StartupEventArgs e)
     {
         EnsureSingleton();
-        OpenSplashScreen();
+        // OpenSplashScreen();
 
         base.OnStartup(e);
 

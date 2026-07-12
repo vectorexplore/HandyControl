@@ -3,7 +3,7 @@
     <UseWPF>true</UseWPF>
     <AssemblyName>HandyControlDemoCode</AssemblyName>
     <RootNamespace>HandyControlDemoCode</RootNamespace>
-    <TargetFrameworks>netcoreapp3.0;netcoreapp3.1;net40;net45;net451;net452;net46;net461;net462;net47;net471;net472;net48;net481;net5.0-windows;net6.0-windows;net7.0-windows;net8.0-windows;net9.0-windows;net10.0-windows</TargetFrameworks>
+    <TargetFrameworks>net10.0</TargetFrameworks>
     <NoWarn>MSB3026;MSB3061</NoWarn>
     <MSBuildWarningsAsMessages>NETSDK1138</MSBuildWarningsAsMessages>
   </PropertyGroup>
@@ -83,9 +83,9 @@
     <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\ChatBubbleDemo.xaml">
       <Link>UserControl\Controls\ChatBubbleDemo.xaml</Link>
     </Resource>
-    <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\CheckComboBoxDemo.xaml">
+    <!-- <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\CheckComboBoxDemo.xaml">
       <Link>UserControl\Controls\CheckComboBoxDemo.xaml</Link>
-    </Resource>
+    </Resource> -->
     <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\CirclePanelDemo.xaml">
       <Link>UserControl\Controls\CirclePanelDemo.xaml</Link>
     </Resource>
@@ -101,9 +101,9 @@
     <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\CompareSliderDemo.xaml">
       <Link>UserControl\Controls\CompareSliderDemo.xaml</Link>
     </Resource>
-    <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\ConfettiCannonDemo.xaml">
+    <!-- <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\ConfettiCannonDemo.xaml">
       <Link>UserControl\Controls\ConfettiCannonDemo.xaml</Link>
-    </Resource>
+    </Resource> -->
     <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\CoverFlowDemo.xaml">
       <Link>UserControl\Controls\CoverFlowDemo.xaml</Link>
     </Resource>
@@ -332,9 +332,9 @@
     <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\NativeProgressBarDemo.xaml">
       <Link>UserControl\Styles\NativeProgressBarDemo.xaml</Link>
     </Resource>
-    <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\NativeScrollViewerDemo.xaml">
+    <!-- <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\NativeScrollViewerDemo.xaml">
       <Link>UserControl\Styles\NativeScrollViewerDemo.xaml</Link>
-    </Resource>
+    </Resource> -->
     <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\NativeTabControlDemo.xaml">
       <Link>UserControl\Styles\NativeTabControlDemo.xaml</Link>
     </Resource>
@@ -474,10 +474,10 @@
       <Link>UserControl\Controls\ChatBubbleDemo.xaml.cs</Link>
       <DependentUpon>ChatBubbleDemo.xaml</DependentUpon>
     </Resource>
-    <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\CheckComboBoxDemo.xaml.cs">
+    <!-- <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\CheckComboBoxDemo.xaml.cs">
       <Link>UserControl\Controls\CheckComboBoxDemo.xaml.cs</Link>
       <DependentUpon>CheckComboBoxDemo.xaml</DependentUpon>
-    </Resource>
+    </Resource> -->
     <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\CirclePanelDemo.xaml.cs">
       <Link>UserControl\Controls\CirclePanelDemo.xaml.cs</Link>
       <DependentUpon>CirclePanelDemo.xaml</DependentUpon>
@@ -498,10 +498,10 @@
       <Link>UserControl\Controls\CompareSliderDemo.xaml.cs</Link>
       <DependentUpon>CompareSliderDemo.xaml</DependentUpon>
     </Resource>
-    <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\ConfettiCannonDemo.xaml.cs">
+    <!-- <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\ConfettiCannonDemo.xaml.cs">
       <Link>UserControl\Controls\ConfettiCannonDemo.xaml.cs</Link>
       <DependentUpon>ConfettiCannonDemo.xaml</DependentUpon>
-    </Resource>
+    </Resource> -->
     <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\CoverFlowDemo.xaml.cs">
       <Link>UserControl\Controls\CoverFlowDemo.xaml.cs</Link>
       <DependentUpon>CoverFlowDemo.xaml</DependentUpon>
@@ -806,10 +806,10 @@
       <Link>UserControl\Styles\NativeProgressBarDemo.xaml.cs</Link>
       <DependentUpon>NativeProgressBarDemo.xaml</DependentUpon>
     </Resource>
-    <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\NativeScrollViewerDemo.xaml.cs">
+    <!-- <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\NativeScrollViewerDemo.xaml.cs">
       <Link>UserControl\Styles\NativeScrollViewerDemo.xaml.cs</Link>
       <DependentUpon>NativeScrollViewerDemo.xaml</DependentUpon>
-    </Resource>
+    </Resource> -->
     <Resource Include="..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\NativeTabControlDemo.xaml.cs">
       <Link>UserControl\Styles\NativeTabControlDemo.xaml.cs</Link>
       <DependentUpon>NativeTabControlDemo.xaml</DependentUpon>

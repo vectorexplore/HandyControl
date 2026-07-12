@@ -24,19 +24,19 @@ public partial class MainWindow
         NonClientAreaContent = new NonClientAreaContent();
         ControlMain.Content = new MainWindowContent();
 
-        GlobalShortcut.Init(new List<KeyBinding>
-        {
-            new(ViewModelLocator.Instance.Main.GlobalShortcutInfoCmd, Key.I, ModifierKeys.Control | ModifierKeys.Alt),
-            new(ViewModelLocator.Instance.Main.GlobalShortcutWarningCmd, Key.E, ModifierKeys.Control | ModifierKeys.Alt),
-            new(ViewModelLocator.Instance.Main.OpenDocCmd, Key.F1, ModifierKeys.None),
-            new(ViewModelLocator.Instance.Main.OpenCodeCmd, Key.F12, ModifierKeys.None)
-        });
+        // GlobalShortcut.Init(new List<KeyBinding>
+        // {
+        //     new(ViewModelLocator.Instance.Main.GlobalShortcutInfoCmd, Key.I, ModifierKeys.Control | ModifierKeys.Alt),
+        //     new(ViewModelLocator.Instance.Main.GlobalShortcutWarningCmd, Key.E, ModifierKeys.Control | ModifierKeys.Alt),
+        //     new(ViewModelLocator.Instance.Main.OpenDocCmd, Key.F1, ModifierKeys.None),
+        //     new(ViewModelLocator.Instance.Main.OpenCodeCmd, Key.F12, ModifierKeys.None)
+        // });
 
-        Dialog.SetToken(this, MessageToken.MainWindow);
-        WindowAttach.SetIgnoreAltF4(this, true);
+        // Dialog.SetToken(this, MessageToken.MainWindow);
+        // WindowAttach.SetIgnoreAltF4(this, true);
 
-        Messenger.Default.Send(true, MessageToken.FullSwitch);
-        Messenger.Default.Send(AssemblyHelper.CreateInternalInstance($"UserControl.{MessageToken.PracticalDemo}"), MessageToken.LoadShowContent);
+        // Messenger.Default.Send(true, MessageToken.FullSwitch);
+        // Messenger.Default.Send(AssemblyHelper.CreateInternalInstance($"UserControl.{MessageToken.PracticalDemo}"), MessageToken.LoadShowContent);
     }
 
     protected override void OnClosing(CancelEventArgs e)

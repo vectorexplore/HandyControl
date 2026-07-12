@@ -1,9 +1,10 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <AssemblyName>HandyControlDemo</AssemblyName>
     <RootNamespace>HandyControlDemo</RootNamespace>
-    <TargetFrameworks>netcoreapp3.0;netcoreapp3.1;net45;net451;net452;net46;net461;net462;net47;net471;net472;net48;net481;net5.0-windows;net6.0-windows;net7.0-windows;net8.0-windows;net9.0-windows;net10.0-windows</TargetFrameworks>
+    <TargetFrameworks>net10.0</TargetFrameworks>
+    <UseWPF>true</UseWPF>
     <ApplicationIcon>..\..\Shared\HandyControlDemo_Shared\Resources\Img\icon.ico</ApplicationIcon>
     <NoWarn>0108;MSB3026;MSB3061;SYSLIB0014</NoWarn>
     <MSBuildWarningsAsMessages>NETSDK1138</MSBuildWarningsAsMessages>
@@ -48,7 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\HandyControlDemo_Code\HandyControlDemo_Code.csproj" />
-    <ProjectReference Include="..\HandyControl_Net_GE45\HandyControl_Net_GE45.csproj" />
+    <!-- <ProjectReference Include="..\HandyControl_Net_GE45\HandyControl_Net_GE45.csproj" /> -->
+     <PackageReference Include="HandyControl" Version="3.5.1" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="..\..\Shared\HandyControlDemo_Shared\Data\DemoInfo.json">

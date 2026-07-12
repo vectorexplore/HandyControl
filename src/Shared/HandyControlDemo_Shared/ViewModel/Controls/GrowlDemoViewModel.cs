@@ -36,7 +36,7 @@ public class GrowlDemoViewModel : ViewModelBase
         set
         {
             Set(ref _transitionMode, value);
-            Growl.SetTransitionMode(Application.Current.MainWindow, value);
+            // Growl.SetTransitionMode(Application.Current.MainWindow, value);
         }
 #endif
     }

@@ -12,6 +12,6 @@ public partial class ImageBrowserDemo : IDisposable
 
     public void Dispose()
     {
-        ImageViewerDemo.Dispose();
+        // ImageViewerDemo.Dispose();
     }
 }
