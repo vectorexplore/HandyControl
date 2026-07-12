@@ -127,9 +127,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)UserControl\Controls\ChatBubbleDemo.xaml.cs">
       <DependentUpon>ChatBubbleDemo.xaml</DependentUpon>
     </Compile>
-    <!-- <Compile Include="$(MSBuildThisFileDirectory)UserControl\Controls\CheckComboBoxDemo.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)UserControl\Controls\CheckComboBoxDemo.xaml.cs">
       <DependentUpon>CheckComboBoxDemo.xaml</DependentUpon>
-    </Compile> -->
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)UserControl\Controls\CirclePanelDemo.xaml.cs">
       <DependentUpon>CirclePanelDemo.xaml</DependentUpon>
     </Compile>
@@ -370,9 +370,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)UserControl\Styles\NativeProgressBarDemo.xaml.cs">
       <DependentUpon>NativeProgressBarDemo.xaml</DependentUpon>
     </Compile>
-    <!-- <Compile Include="$(MSBuildThisFileDirectory)UserControl\Styles\NativeScrollViewerDemo.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)UserControl\Styles\NativeScrollViewerDemo.xaml.cs">
       <DependentUpon>NativeScrollViewerDemo.xaml</DependentUpon>
-    </Compile> -->
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)UserControl\Styles\NativeTabControlDemo.xaml.cs">
       <DependentUpon>NativeTabControlDemo.xaml</DependentUpon>
     </Compile>
@@ -635,10 +635,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <!-- <Page Include="$(MSBuildThisFileDirectory)UserControl\Controls\CheckComboBoxDemo.xaml">
+    <Page Include="$(MSBuildThisFileDirectory)UserControl\Controls\CheckComboBoxDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page> -->
+    </Page>
     <Page Include="$(MSBuildThisFileDirectory)UserControl\Controls\CirclePanelDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -959,10 +959,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <!-- <Page Include="$(MSBuildThisFileDirectory)UserControl\Styles\NativeScrollViewerDemo.xaml">
+    <Page Include="$(MSBuildThisFileDirectory)UserControl\Styles\NativeScrollViewerDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page> -->
+    </Page>
     <Page Include="$(MSBuildThisFileDirectory)UserControl\Styles\NativeTabControlDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
